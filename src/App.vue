@@ -2,21 +2,21 @@
   <v-app>
     <Nav />
     <v-content>
-      <HelloWorld/>
+      <Template />
     </v-content>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Template from './pages/template';
 import Nav from './commons/nav';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
-    Nav
+    Nav,
+    Template
   },
 
   data: () => ({
