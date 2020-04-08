@@ -3,12 +3,11 @@
     <v-card
      color="#385F73"
      dark >
-      <v-card-title class="headline">Unlimited music now</v-card-title>
+      <v-card-title class="headline"> {{ heading }} </v-card-title>
 
-      <v-card-subtitle>Listen to your favorite artists and albums whenever and wherever, online and offline.</v-card-subtitle>
-
+      <v-card-subtitle> {{ description }} </v-card-subtitle>
       <v-card-actions>
-        <v-btn text>Listen Now</v-btn>
+        <v-btn text>Button Here</v-btn>
       </v-card-actions>
     </v-card>
   </div>
@@ -18,7 +17,10 @@
     export default {
         name: 'CardTask',
         props: {
-            message : String
+            heading : String,
+            description: String,
+            priority: String,
+            status: String
         }
 
     }

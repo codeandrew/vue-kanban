@@ -10,7 +10,11 @@
         <div>
             <v-container>
             <h1> Card Task</h1>
-                <CardTask />
+                <CardTask  
+                    heading="New Task"
+                    description="Short description About task"
+                    priority="Priority Here To Be Assigned"
+                />
             </v-container>
         </div>
     </div>
