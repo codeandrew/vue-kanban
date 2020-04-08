@@ -1,5 +1,22 @@
-# vue-kanban
+# Vue-kanban
+> Project Management Application
 
+## Features
+- TBA
+
+## Tasks
+- Create Dashboard
+- Create Board / Project
+- Create Columns/List
+- Create Task
+    - Subject 
+    - Description
+    - Priority
+- Drag from one list to another
+- Edit Task
+- Assign Task to User
+
+---
 ## Project setup
 ```
 npm install
@@ -19,6 +36,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
