@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name: ButtonRound,
+        name: 'ButtonRound',
         props: {
             message : String
         }
